@@ -14,13 +14,20 @@ tensorflow
 ```shell
 conda create -n chatbot python=3.8
 conda activate chatbot
+cd ANN_ChatBot/
 pip install -r requirements.txt
 
 ```
 
 ### Running the app
 ```shell
-cd ANN_ChatBot/
+export FLASK_APP=app.py
+export FLASK_DEBUG=1
+
+flask run app
+```
+OR
+```shell
 python app.py
 ```
 

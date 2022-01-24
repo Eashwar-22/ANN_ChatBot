@@ -1,0 +1,18 @@
+{% extends "base.html" %}
+
+{% block content %}
+<div class="container mt-5" style="background-color:#dff0e3;">
+    <h4> User : {{ message }} </h4> <br>
+    <h4> Bot : {{ output }} </h4><br>
+    <form method="POST">
+        <div class="form-group">
+            <input type="text" class="form-control"  id="name" name="name" placeholder="Enter Message">
+        </div>
+        <button type="submit" name="submit"  value="submit" class="btn btn-primary">Submit</button>
+        <button type="submit" name="clear"  value="clear"  class="btn btn-secondary">Clear</button>
+    </form>
+
+    <br/>
+
+</div>
+{% endblock %}

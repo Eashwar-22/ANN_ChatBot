@@ -1,0 +1,4 @@
+flask~=2.0.2
+nltk~=3.6.7
+numpy~=1.18.5
+tensorflow

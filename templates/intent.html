@@ -1,0 +1,18 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+<div class="container">
+    <br/><br/>
+    <h4> Trained with :</h4>
+    <br>
+    <samp>
+        {% for j in intents %}
+        {{j['tag']}} : <br>
+        {{ j['patterns']}}
+        <br/><br/>
+        {% endfor %}
+    </samp>
+</div>
+
+{% endblock %}

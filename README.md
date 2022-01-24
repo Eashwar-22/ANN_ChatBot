@@ -1,6 +1,10 @@
 # ANN_ChatBot
 
 ----
+### Virtual Env:
+```
+conda create -n chatbot python=3.8
+```
 
 
 ### Requirements:
